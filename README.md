@@ -6,7 +6,7 @@ As part of model training, we have trained three separate nodels, namely: Simple
 
 
 ## How the model works!
-![](https://github.com/ChetanChaudhary6/Sentimental-Analysis-LSTM/readme/movie-sentiment-functionality.gif)
+![](readme/movie-sentiment-functionality.gif)
 
 ## Steps to run on Windows
 
