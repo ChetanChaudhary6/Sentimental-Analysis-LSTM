@@ -6,7 +6,7 @@ As part of model training, we have trained three separate nodels, namely: Simple
 
 
 ## How the model works!
-![](https://github.com/skillcate/movie-sentiment-analysis-with-deep-neural-networks/blob/a31f642c1753dbf1b7220a37d4b09602e6248a7c/readme/movie-sentiment-functionality.gif)
+![](https://github.com/ChetanChaudhary6/Sentimental-Analysis-LSTM/readme/movie-sentiment-functionality.gif)
 
 ## Steps to run on Windows
 
