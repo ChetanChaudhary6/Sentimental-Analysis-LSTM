@@ -13,13 +13,21 @@ from keras.layers import Flatten, GlobalMaxPooling1D, Embedding, Conv1D, LSTM
 from sklearn.model_selection import train_test_split
 from flask import Flask, request, jsonify, render_template
 from keras_preprocessing.sequence import pad_sequences
-import nltk
-from nltk.corpus import stopwords
+# import nltk
+<<<<<<< HEAD
+# nltk.download('stopwords')
+=======
+# from nltk.corpus import stopwords
+>>>>>>> 88b388d96784c17f4a859a03fb1a31316e35aa4a
 from keras_preprocessing.text import tokenizer_from_json
 import io
 import json
 
-stopwords_list = set(stopwords.words('english'))
+<<<<<<< HEAD
+# stopwords_list = set(nltk.corpus.stopwords.words('english'))
+=======
+# stopwords_list = set(stopwords.words('english'))
+>>>>>>> 88b388d96784c17f4a859a03fb1a31316e35aa4a
 maxlen = 100
 
 # Load model
@@ -37,8 +45,8 @@ app = Flask(__name__)
 
 
 # creating function for data cleaning
-from b2_preprocessing_function import CustomPreprocess
-custom = CustomPreprocess()
+# from b2_preprocessing_function import CustomPreprocess
+# custom = CustomPreprocess()
 
 
 # Define predict function
@@ -55,8 +63,8 @@ def predict():
     # Preprocess review text with earlier defined preprocess_text function
     query_processed_list = []
     for query in query_asis:
-        query_processed = custom.preprocess_text(query)
-        query_processed_list.append(query_processed)
+        # query_processed = custom.preprocess_text(query)
+        query_processed_list.append(query)
         
     # Tokenising instance with earlier trained tokeniser
     query_tokenized = loaded_tokenizer.texts_to_sequences(query_processed_list)
