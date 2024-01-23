@@ -14,20 +14,12 @@ from sklearn.model_selection import train_test_split
 from flask import Flask, request, jsonify, render_template
 from keras_preprocessing.sequence import pad_sequences
 # import nltk
-<<<<<<< HEAD
 # nltk.download('stopwords')
-=======
-# from nltk.corpus import stopwords
->>>>>>> 88b388d96784c17f4a859a03fb1a31316e35aa4a
 from keras_preprocessing.text import tokenizer_from_json
 import io
 import json
 
-<<<<<<< HEAD
 # stopwords_list = set(nltk.corpus.stopwords.words('english'))
-=======
-# stopwords_list = set(stopwords.words('english'))
->>>>>>> 88b388d96784c17f4a859a03fb1a31316e35aa4a
 maxlen = 100
 
 # Load model
