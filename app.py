@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 import tensorflow as tf
-import re
+# import re
 from numpy import array
 
 from keras.preprocessing.text import one_hot, Tokenizer
@@ -16,7 +16,7 @@ from keras_preprocessing.sequence import pad_sequences
 # import nltk
 # nltk.download('stopwords')
 from keras_preprocessing.text import tokenizer_from_json
-import io
+# import io
 import json
 
 # stopwords_list = set(nltk.corpus.stopwords.words('english'))
