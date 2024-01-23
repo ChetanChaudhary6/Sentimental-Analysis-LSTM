@@ -5,14 +5,14 @@ import tensorflow as tf
 # import re
 from numpy import array
 
-from keras.preprocessing.text import one_hot, Tokenizer
+from tensorflow.keras.preprocessing import one_hot, Tokenizer
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import LSTM
 from tensorflow.keras.layers import Activation, Dropout, Dense
 from tensorflow.keras.layers import Flatten, GlobalMaxPooling1D, Embedding, Conv1D, LSTM
 from sklearn.model_selection import train_test_split
 from flask import Flask, request, jsonify, render_template
-from keras_preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing import pad_sequences
 # import nltk
 # nltk.download('stopwords')
 from keras_preprocessing.text import tokenizer_from_json
