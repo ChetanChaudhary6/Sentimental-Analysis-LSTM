@@ -16,7 +16,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # import nltk
 # nltk.download('stopwords')
-from keras_preprocessing.text import tokenizer_from_json
+from tensorflow.keras.preprocessing.text import tokenizer_from_json
+
 # import io
 import json
 
