@@ -5,13 +5,13 @@ import tensorflow as tf
 # import re
 from numpy import array
 
-from tensorflow.keras.preprocessing import one_hot, Tokenizer
-from tensorflow.keras.models import Sequential, load_model
-from tensorflow.keras.layers import LSTM
-from tensorflow.keras.layers import Activation, Dropout, Dense
-from tensorflow.keras.layers import Flatten, GlobalMaxPooling1D, Embedding, Conv1D, LSTM
-from sklearn.model_selection import train_test_split
-from flask import Flask, request, jsonify, render_template
+# from tensorflow.keras.preprocessing import one_hot, Tokenizer
+from tensorflow.keras.models import load_model
+# from tensorflow.keras.layers import LSTM
+# from tensorflow.keras.layers import Activation, Dropout, Dense
+# from tensorflow.keras.layers import Flatten, GlobalMaxPooling1D, Embedding, Conv1D, LSTM
+# from sklearn.model_selection import train_test_split
+from flask import Flask, request,  render_template
 from tensorflow.keras.preprocessing import pad_sequences
 # import nltk
 # nltk.download('stopwords')
